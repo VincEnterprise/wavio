@@ -3,6 +3,7 @@
 
 declare module 'vue' {
   export interface GlobalComponents {
+    CarbonDicomOverlay: typeof import('virtual:vite-icons/carbon/dicom-overlay')['default']
     ConverterGroup: typeof import('./src/components/organisms/ConverterGroup.vue')['default']
     Dropdown: typeof import('./src/components/molecules/Dropdown.vue')['default']
     DropdownButton: typeof import('./src/components/atoms/DropdownButton.vue')['default']
