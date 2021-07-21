@@ -5,9 +5,23 @@ button:
   home: Accueil
   toggle_dark: Basculer en mode sombre
   toggle_langs: Changer de langue
+
 intro:
-  desc: Exemple d'application Vite
-  dynamic-route: Démo de route dynamique
-  hi: Salut, {name}!
-  whats-your-name: Comment t'appelles-tu ?
-not-found: Page non trouvée
+  desc: Convertissez les puissances des micro-ondes.
+
+not-found: Pas trouvé
+
+built-by: Construit par
+
+label:
+  package-wattage: 'Puissance d''emballage:'
+  package-time: 'Temps d''emballage:'
+  microwave-wattage: 'Puissance du micro-ondes:'
+  microwave-time: 'Temps du micro-ondes:'
+
+option-label:
+  seconds: secondes
+  watt: watt
+
+toggle:
+  rounded: 'Arrondi:'

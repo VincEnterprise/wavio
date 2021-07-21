@@ -11,6 +11,7 @@ const { t } = useI18n()
     <div>
       <p class="text-4xl">
         <carbon-warning class="inline-block" />
+        <uil-exclamation-triangle/>
       </p>
     </div>
     <router-view />

@@ -5,9 +5,23 @@ button:
   home: Inicio
   toggle_dark: Alternar modo oscuro
   toggle_langs: Cambiar idiomas
+
 intro:
-  desc: Plantilla de Inicio de Vite Dogmática
-  dynamic-route: Demo de ruta dinámica
-  hi: ¡Hola, {name}!
-  whats-your-name: ¿Cómo te llamas?
+  desc: Convierta las potencias de microondas.
+
 not-found: No se ha encontrado
+
+built-by: Construido por
+
+label:
+  package-wattage: 'Potencia de embalaje:'
+  package-time: 'Tiempo de embalaje:'
+  microwave-wattage: 'Potencia de microondas:'
+  microwave-time: 'Tiempo de microondas:'
+
+option-label:
+  seconds: segundos
+  watt: vatio
+
+toggle:
+  rounded: 'Redondeado:'
