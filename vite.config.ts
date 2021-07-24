@@ -58,8 +58,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg', 'robots.txt', 'safari-pinned-tab.svg'],
       manifest: {
-        name: 'Vitesse',
-        short_name: 'Vitesse',
+        name: 'wavio',
+        short_name: 'wavio',
         theme_color: '#FFC94D',
         icons: [
           {
