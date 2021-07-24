@@ -1,7 +1,7 @@
 <template>
   <transition-group
     tag="div"
-    class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 md:gap-8"
+    grid="~ cols-1 gap-4 sm:gap-6 md:(gap-8 cols-2)"
     :show="true"
     appear
   >
@@ -26,7 +26,7 @@
       </h2>
       <div class="flex flex-grow flex-wrap gap-5">
         <MicrowaveTime :time="microwaveTime" />
-        <Toggle @update-toggle="handleToggleUpdate" />
+        <Toggle @update-round-time="handleRoundTime" />
       </div>
     </StepPanel>
   </transition-group>
@@ -108,7 +108,7 @@ function handleOptionUpdate({ dropdownId, optionValue }: { dropdownId: number; o
 //
 const rounded = ref(true)
 
-function handleToggleUpdate(newValue: boolean): void {
+function handleRoundTime(newValue: boolean): void {
   rounded.value = newValue
 }
 

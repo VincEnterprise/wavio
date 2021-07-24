@@ -17,12 +17,12 @@ export default defineConfig({
   },
   plugins: [
     Vue({
-      include: [/\.vue$/, /\.md$/],
+      include: [/\.vue$/],
     }),
 
     // https://github.com/hannoeru/vite-plugin-pages
     Pages({
-      extensions: ['vue', 'md'],
+      extensions: ['vue'],
     }),
 
     // https://github.com/JohnCampionJr/vite-plugin-vue-layouts
@@ -50,6 +50,9 @@ export default defineConfig({
     // https://github.com/antfu/vite-plugin-icons
     ViteIcons(),
 
+    // https://github.com/antfu/vite-plugin-windicss
+    WindiCSS(),
+
     // https://github.com/antfu/vite-plugin-pwa
     VitePWA({
       registerType: 'autoUpdate',
@@ -57,7 +60,7 @@ export default defineConfig({
       manifest: {
         name: 'Vitesse',
         short_name: 'Vitesse',
-        theme_color: '#ffffff',
+        theme_color: '#FFC94D',
         icons: [
           {
             src: '/pwa-192x192.png',

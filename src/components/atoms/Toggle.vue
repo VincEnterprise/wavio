@@ -25,7 +25,7 @@
       shadow="md"
       cursor="pointer"
       outline="focus:none"
-      ring="focus-visible:2 focus-visible:offset-2 focus-visible:yellow"
+      ring="focus-visible:2 offset-2 yellow"
     >
       <span sr="only">Use setting</span>
 
@@ -55,12 +55,12 @@ import { useI18n } from 'vue-i18n'
 const { t } = useI18n()
 
 const props = defineProps({ initialValue: { default: true, type: Boolean } })
-const emit = defineEmits(['update-toggle'])
+const emit = defineEmits(['update-round-time'])
 
 const { initialValue } = props
 const enabled = ref(initialValue)
 
 watch(enabled, (newValue) => {
-  emit('update-toggle', newValue)
+  emit('update-round-time', newValue)
 })
 </script>

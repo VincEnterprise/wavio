@@ -7,7 +7,12 @@
   >
     © {{ new Date().getFullYear() }} — {{ t('built-by') }}
     {{ " " }}
-    <a href="https://vincenterprise.com">VincEnterprise</a>
+    <a
+      underline="~"
+      href="https://vincenterprise.com"
+    >
+      VincEnterprise
+    </a>
   </footer>
 </template>
 

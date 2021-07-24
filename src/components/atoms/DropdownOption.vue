@@ -8,7 +8,7 @@
     <li
       element="OPTION"
       pos="relative"
-      p="y-1.5 r-3 l-10 sm:y-2 sm:r-4"
+      p="y-1.5 r-3 l-10 sm:y-2 r-4"
       font="sm:tracking-wider"
       select="none"
       cursor="pointer"
@@ -77,7 +77,7 @@
 import type { PropType } from 'vue'
 import type { Option } from '~/types'
 
-const props = defineProps({
+defineProps({
   option: {
     type: Object as PropType<Option>,
     required: true,

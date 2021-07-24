@@ -45,13 +45,12 @@
 
             <uil-angle-down
               element="BUTTON-INNER__CHEVRON"
-              :class="open ? 'rotate-180 duration-400' : 'duration-200'"
+              :class="open ? 'transform rotate-180 duration-400' : 'transform duration-200'"
               pos="absolute inset-0"
               bg="red"
               w="full"
               h="full"
               text="gray-600 group-hover:yellow-900"
-              transform="~"
               class="will-transform"
               transition="ease-button-cubic-1 duration-400"
             />

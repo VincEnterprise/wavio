@@ -46,8 +46,8 @@
       border="2 gray-100 rounded-2xl"
       transition="
         transform duration-600 ease-button-cubic-1
-        group-hover:duration-250 ease-button-cubic-2
-        group-focus-visible:duration-250 ease-button-cubic-2
+        group-hover:(duration-250 ease-button-cubic-2)
+        group-focus-visible:(duration-250 ease-button-cubic-2)
         group-active:duration-34
         "
       class="will-transform"
